@@ -1,0 +1,22 @@
+textarea {
+    resize: none;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #editor {
+    margin-top: 50px;
+    width: 90%;
+    height: 60vh;
+  }
+  #preview {
+    border: 1px solid black;
+    width: 90%;
+  }
