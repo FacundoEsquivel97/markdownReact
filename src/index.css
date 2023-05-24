@@ -1,5 +1,10 @@
+body {
+    background-color: steelblue;
+}
 textarea {
     resize: none;
+    background-color: darkslategray;
+    color: whitesmoke;
 }
 img {
     max-width: 100%;
@@ -12,11 +17,18 @@ img {
     justify-content: center;
   }
   #editor {
-    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    margin: 50px;
     width: 90%;
     height: 60vh;
+    padding: 1rem;
+    box-sizing: border-box;
   }
   #preview {
+    
+    padding: 1rem;
+    box-sizing: border-box;
     border: 1px solid black;
     width: 90%;
+    background-color: antiquewhite;
   }
